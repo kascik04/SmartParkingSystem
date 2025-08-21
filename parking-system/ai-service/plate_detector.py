@@ -25,7 +25,7 @@ class LicensePlateDetector:
         try:
             logger.info("Setting up Roboflow dataset...")
             
-            rf = Roboflow(api_key="09OdNLhe3Re4WNqCfi5y")
+            rf = Roboflow(api_key="************")
             project = rf.workspace("platedetector-ecjn8").project("my-first-project-icuxt-pp5kj")
             version = project.version(1)
             

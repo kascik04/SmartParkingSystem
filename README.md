@@ -1,19 +1,17 @@
-# 🚗 Smart Parking System - Hệ Thống Bãi Xe Thông Minh
+# 🚗 Smart Parking System 
 
-## 📋 Tóm Tắt Dự Án | Project Overview
-
-**Smart Parking System** là một hệ thống quản lý bãi xe thông minh sử dụng công nghệ AI để tự động nhận diện biển số xe, quản lý vào/ra và tính toán phí đỗ xe. Dự án được phát triển với kiến trúc microservices hiện đại, tích hợp Deep Learning và Computer Vision.
+## 📋 Project Overview
 
 **Smart Parking System** is an intelligent parking management system that uses AI technology for automatic license plate recognition, entry/exit management, and parking fee calculation. The project is developed with modern microservices architecture, integrating Deep Learning and Computer Vision.
 
-## 🎯 Mục Tiêu Dự Án | Project Objectives
+## 🎯 Project Objectives
 
-- **Tự động hóa**: Giảm thiểu can thiệp thủ công trong quản lý bãi xe
-- **Chính xác**: Sử dụng AI để nhận diện biển số với độ chính xác cao
-- **Hiệu quả**: Tối ưu hóa quy trình vào/ra và quản lý chỗ đỗ
-- **Thân thiện**: Giao diện người dùng trực quan, dễ sử dụng
+**Automation**: Minimize manual intervention in parking management- 
+**Accuracy**: Use AI to recognize license plates with high precision
+**Efficiency**: Optimize entrance/exit processes and parking space management
+**User-friendly**: Intuitive, easy-to-use user interface
 
-## 🛠️ Công Nghệ Sử Dụng | Technology Stack
+## 🛠️ Technology Stack
 
 ### Frontend
 - **React.js 18.2+** - Modern UI framework
@@ -41,7 +39,7 @@
 - **RESTful APIs** - Service communication
 - **CORS** - Cross-origin resource sharing
 
-## 🏗️ Kiến Trúc Hệ Thống | System Architecture
+## 🏗️ System Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -57,42 +55,42 @@
                        └─────────────────┘
 ```
 
-## ✨ Tính Năng Chính | Key Features
+##  Key Features
 
-### 🔍 Nhận Diện Biển Số Thông Minh
-- **YOLO Object Detection**: Phát hiện vùng biển số trong ảnh
-- **OCR Technology**: Trích xuất text từ biển số
-- **Vietnamese License Plate Support**: Hỗ trợ định dạng biển số Việt Nam
-- **Multiple Format Recognition**: Ô tô, xe máy, xe đạp
+### 🔍 License Plate Detection
+- **YOLO Object Detection**: Detects license plate areas in images
+- **OCR Technology**: Extracts text from license plates
+- **Vietnamese License Plate Support**: Supports Vietnamese license plate formats
+- **Multiple Format Recognition**: Cars, motorbikes, bicycles
 
-### 🚪 Quản Lý Vào/Ra Tự Động
-- **Automatic Entry Processing**: Xử lý xe vào tự động
-- **Exit Fee Calculation**: Tính toán phí đỗ xe theo thời gian
-- **Real-time Slot Management**: Quản lý chỗ đỗ theo thời gian thực
-- **Multi-floor Support**: Hỗ trợ 4 tầng với 250 chỗ đỗ/tầng
+### 🚪 Automated Entry/Exit Management
+- **Automatic Entry Processing**
+- **Exit Fee Calculation**
+- **Real-time Slot Management**
+- **Multi-floor Support**
 
-### 📊 Thống Kê và Báo Cáo
-- **Real-time Statistics**: Thống kê theo thời gian thực
-- **Parking History**: Lịch sử xe vào/ra
-- **Revenue Tracking**: Theo dõi doanh thu
-- **Occupancy Analytics**: Phân tích tỷ lệ sử dụng
+### 📊 Statistics
+- **Real-time Statistics**
+- **Parking History**
+- **Revenue Tracking**
+- **Occupancy Analytics**
 
-### 🎨 Giao Diện Người Dùng
-- **Responsive Design**: Tương thích mọi thiết bị
-- **Vietnamese Interface**: Giao diện tiếng Việt
-- **Intuitive Navigation**: Điều hướng trực quan
-- **Real-time Updates**: Cập nhật theo thời gian thực
+### 🎨 UX/UI
+- **Responsive Design**
+- **Vietnamese Interface**
+- **Intuitive Navigation**
+- **Real-time Updates**
 
-## 🚀 Cài Đặt và Chạy | Installation & Setup
+## 🚀 Installation & Setup
 
-### Yêu Cầu Hệ Thống | System Requirements
+### System Requirements
 - **Node.js** 16+ 
 - **Java** 17+
 - **Python** 3.8+
 - **MySQL** 8.0+
 - **Maven** 3.6+
 
-### Cài Đặt | Installation
+###  Installation
 
 #### 1. Clone Repository
 ```bash
@@ -128,7 +126,7 @@ npm install
 npm start
 ```
 
-### Truy Cập Ứng Dụng | Access Application
+###  Access Application
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:8080
 - **AI Service**: http://localhost:5000
@@ -136,16 +134,16 @@ npm start
 ## 📝 API Documentation
 
 ### Vehicle Management
-- `GET /api/vehicles` - Lấy danh sách xe
-- `POST /api/vehicles/entry` - Xử lý xe vào
-- `POST /api/vehicles/exit/{id}` - Xử lý xe ra
-- `POST /api/vehicles/detect-license` - Nhận diện biển số
+- `GET /api/vehicles` 
+- `POST /api/vehicles/entry` 
+- `POST /api/vehicles/exit/{id}` 
+- `POST /api/vehicles/detect-license` 
 
 ### AI Service
-- `POST /detect-file` - Nhận diện biển số từ file ảnh
-- `GET /health` - Kiểm tra trạng thái service
+- `POST /detect-file` 
+- `GET /health` 
 
-## 🎓 Kỹ Năng Thể Hiện | Skills Demonstrated
+## 🎓 Skills Demonstrated
 
 ### Technical Skills
 - **Full-stack Development**: Frontend + Backend + AI integration
@@ -173,7 +171,7 @@ npm start
 - **OCR**: Text extraction from images
 - **Model Training**: Custom dataset preparation
 
-## 🏆 Điểm Nổi Bật | Highlights
+## 🏆 Highlights
 
 1. **Innovative Solution**: Giải pháp sáng tạo cho bài toán thực tế
 2. **Modern Architecture**: Kiến trúc microservices hiện đại
@@ -182,7 +180,7 @@ npm start
 5. **Scalable Design**: Thiết kế có thể mở rộng
 6. **User-Centric**: Tập trung vào trải nghiệm người dùng
 
-## 📞 Liên Hệ | Contact
+## 📞 Contact
 
 **Developer**: Tran Minh Khang
 - **GitHub**: [kascik04](https://github.com/kascik04)

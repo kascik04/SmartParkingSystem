@@ -189,6 +189,4 @@ npm start
 
 ---
 
-*Dự án này thể hiện khả năng phát triển full-stack, tích hợp AI/ML, và giải quyết bài toán thực tế trong lĩnh vực công nghệ thông minh.*
-
 *This project demonstrates full-stack development capabilities, AI/ML integration, and real-world problem-solving in smart technology domain.*
